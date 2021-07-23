@@ -1,6 +1,6 @@
 {
   "extends": [
     "config:base",
-    "github>YoloDev/renovate-config:globalJson"
+    "local>YoloDev/renovate-config:globalJson"
   ]
 }
