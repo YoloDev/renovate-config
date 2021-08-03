@@ -2,6 +2,7 @@
   "extends": [
     "config:base",
     "local>YoloDev/renovate-config:globalJson",
-    "local>YoloDev/renovate-config:labels"
+    "local>YoloDev/renovate-config:labels",
+    "local>YoloDev/renovate-config:groups"
   ]
 }

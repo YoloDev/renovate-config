@@ -1,0 +1,21 @@
+{
+  "packageRules": [
+    {
+      "datasources": ["npm"],
+      "groupName": "unified packages",
+      "packagePatterns": [
+        "^unified$",
+        "^unist-",
+        "^hast-",
+        "^rehype-",
+        "^remark-",
+        "^hastscript$"
+      ]
+    },
+    {
+      "datasources": ["npm"],
+      "groupName": "octokit packages",
+      "packagePatterns": ["^@octokit\\/"]
+    }
+  ]
+}
