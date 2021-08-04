@@ -16,6 +16,11 @@
       "datasources": ["npm"],
       "groupName": "octokit packages",
       "packagePatterns": ["^@octokit\\/"]
+    },
+    {
+      "datasources": ["npm"],
+      "groupName": "github actions packages",
+      "packagePatterns": ["^@actions\\/"]
     }
   ]
 }
