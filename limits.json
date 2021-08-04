@@ -1,0 +1,6 @@
+{
+  "branchConcurrentLimit": null,
+  "prConcurrentLimit": 0,
+  "prCreation": "not-pending",
+  "prHourlyLimit": 0
+}
