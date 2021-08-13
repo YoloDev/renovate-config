@@ -21,6 +21,11 @@
       "datasources": ["npm"],
       "groupName": "github actions packages",
       "packagePatterns": ["^@actions\\/"]
+    },
+    {
+      "datasources": ["nuget"],
+      "groupName": "FsCheck packages",
+      "packagePatterns": ["^FsCheck$", "^FsCheck\.Xunit$"]
     }
   ]
 }
