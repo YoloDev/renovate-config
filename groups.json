@@ -26,6 +26,11 @@
       "datasources": ["nuget"],
       "groupName": "FsCheck packages",
       "packagePatterns": ["^FsCheck$", "^FsCheck\\.Xunit$"]
+    },
+    {
+      "datasources": ["crate"],
+      "groupName": "tracing packages",
+      "packagePatterns": ["^tracing$", "^tracing-subscriber$"]
     }
   ]
 }
