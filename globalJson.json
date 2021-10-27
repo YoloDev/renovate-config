@@ -1,9 +1,0 @@
-{
-  "regexManagers": [
-    {
-      "fileMatch": "global.json",
-      "matchStrings": ["\"(?<depName>[^\"]*?\\.[^\"]*?)\":\\s*\"(?<currentValue>[^\"]*?)\""],
-      "datasourceTemplate": "nuget"
-    }
-  ]
-}
