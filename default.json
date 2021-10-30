@@ -5,6 +5,7 @@
     "local>YoloDev/renovate-config:labels",
     "local>YoloDev/renovate-config:groups",
     "local>YoloDev/renovate-config:limits",
-    "local>YoloDev/renovate-config:rust-toolchain"
+    "local>YoloDev/renovate-config:rust-toolchain",
+    "local>YoloDev/renovate-config:conventional-commits"
   ]
 }
