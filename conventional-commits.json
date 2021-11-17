@@ -2,5 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "semanticCommits": "enabled",
   "semanticCommitType": "deps",
-  "semanticCommitScope": null
+  "semanticCommitScope": null,
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "semanticCommitType": "chore"
+    },
+    {
+      "matchDepTypes": ["dependencies", "require"],
+      "semanticCommitType": "deps"
+    }
+  ]
 }
