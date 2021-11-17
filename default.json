@@ -1,11 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    "local>YoloDev/renovate-config:labels",
-    "local>YoloDev/renovate-config:groups",
-    "local>YoloDev/renovate-config:limits",
-    "local>YoloDev/renovate-config:rust-toolchain",
-    "local>YoloDev/renovate-config:conventional-commits"
+    ":dependencyDashboard",
+    ":ignoreModulesAndTests",
+    ":autodetectPinVersions",
+    ":prConcurrentLimit20",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all",
+    "github>YoloDev/renovate-config:labels",
+    "github>YoloDev/renovate-config:groups",
+    "github>YoloDev/renovate-config:limits",
+    "github>YoloDev/renovate-config:rust-toolchain",
+    "github>YoloDev/renovate-config:conventional-commits"
   ]
 }
