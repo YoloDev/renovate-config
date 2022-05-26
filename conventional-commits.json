@@ -11,6 +11,10 @@
     {
       "matchDepTypes": ["dependencies", "require"],
       "semanticCommitType": "deps"
+    },
+    {
+      "matchDatasources": ["nuget"],
+      "semanticCommitType": "deps"
     }
   ]
 }
