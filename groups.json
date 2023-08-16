@@ -30,8 +30,13 @@
     },
     {
       "datasources": ["crate"],
-      "groupName": "tracing packages",
+      "groupName": "tracing crates",
       "packagePatterns": ["^tracing$", "^tracing-subscriber$"]
+    },
+    {
+      "datasources": ["crate"],
+      "groupName": "sea-orm crates",
+      "packagePatterns": ["^sea-orm$", "^sea-orm-migration$"]
     }
   ]
 }
