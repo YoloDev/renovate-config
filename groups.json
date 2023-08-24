@@ -37,6 +37,11 @@
       "datasources": ["crate"],
       "groupName": "sea-orm crates",
       "packagePatterns": ["^sea-orm$", "^sea-orm-migration$"]
+    },
+    {
+      "datasources": ["crate"],
+      "groupName": "aws sdk crates",
+      "packagePatterns": ["^aws-config$", "^aws-sdk-[a-z]+$"]
     }
   ]
 }
