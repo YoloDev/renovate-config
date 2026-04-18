@@ -29,17 +29,17 @@
       "matchPackageNames": ["FsCheck", "FsCheck.Xunit"]
     },
     {
-      "matchDatasources": ["cargo"],
+      "matchDatasources": ["crate"],
       "groupName": "tracing crates",
       "matchPackageNames": ["tracing", "tracing-subscriber"]
     },
     {
-      "matchDatasources": ["cargo"],
+      "matchDatasources": ["crate"],
       "groupName": "sea-orm crates",
       "matchPackageNames": ["sea-orm", "sea-orm-migration"]
     },
     {
-      "matchDatasources": ["cargo"],
+      "matchDatasources": ["crate"],
       "groupName": "aws sdk crates",
       "matchPackageNames": ["aws-config", "/^aws-sdk-[a-z]+$/"]
     }

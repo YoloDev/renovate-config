@@ -17,7 +17,7 @@
       "semanticCommitType": "deps"
     },
     {
-      "matchDatasources": ["github-actions"],
+      "matchDepTypes": ["action"],
       "semanticCommitType": "ci"
     }
   ]
