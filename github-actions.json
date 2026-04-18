@@ -3,7 +3,8 @@
   "packageRules": [
     {
       "matchDatasources": ["github-actions"],
-      "pinDigests": true
+      "pinDigests": true,
+      "strategy": "pin"
     }
   ]
 }
