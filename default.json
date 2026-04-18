@@ -11,8 +11,8 @@
     "github>YoloDev/renovate-config:labels",
     "github>YoloDev/renovate-config:groups",
     "github>YoloDev/renovate-config:limits",
-    "github>YoloDev/renovate-config:rust-toolchain",
     "github>YoloDev/renovate-config:conventional-commits",
-    "github>YoloDev/renovate-config:major-approvals"
+    "github>YoloDev/renovate-config:github-actions",
+    "github>YoloDev/renovate-config:nix"
   ]
 }

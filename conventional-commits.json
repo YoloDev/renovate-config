@@ -15,6 +15,10 @@
     {
       "matchDatasources": ["nuget"],
       "semanticCommitType": "deps"
+    },
+    {
+      "matchDatasources": ["github-actions"],
+      "semanticCommitType": "ci"
     }
   ]
 }

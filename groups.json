@@ -4,44 +4,44 @@
     {
       "datasources": ["npm"],
       "groupName": "unified packages",
-      "packagePatterns": [
-        "^unified$",
-        "^unist-",
-        "^hast-",
-        "^rehype-",
-        "^remark-",
-        "^hastscript$"
+      "matchPackageNames": [
+        "unified",
+        "/^unist-/",
+        "/^hast-/",
+        "/^rehype-/",
+        "/^remark-/",
+        "hastscript"
       ]
     },
     {
-      "datasources": ["npm"],
+      "matchDatasources": ["npm"],
       "groupName": "octokit packages",
-      "packagePatterns": ["^@octokit\\/"]
+      "matchPackageNames": ["@octokit/*"]
     },
     {
-      "datasources": ["npm"],
+      "matchDatasources": ["npm"],
       "groupName": "github actions packages",
-      "packagePatterns": ["^@actions\\/"]
+      "matchPackageNames": ["@actions/*"]
     },
     {
-      "datasources": ["nuget"],
+      "matchDatasources": ["nuget"],
       "groupName": "FsCheck packages",
-      "packagePatterns": ["^FsCheck$", "^FsCheck\\.Xunit$"]
+      "matchPackageNames": ["FsCheck", "FsCheck.Xunit"]
     },
     {
-      "datasources": ["crate"],
+      "matchDatasources": ["cargo"],
       "groupName": "tracing crates",
-      "packagePatterns": ["^tracing$", "^tracing-subscriber$"]
+      "matchPackageNames": ["tracing", "tracing-subscriber"]
     },
     {
-      "datasources": ["crate"],
+      "matchDatasources": ["cargo"],
       "groupName": "sea-orm crates",
-      "packagePatterns": ["^sea-orm$", "^sea-orm-migration$"]
+      "matchPackageNames": ["sea-orm", "sea-orm-migration"]
     },
     {
-      "datasources": ["crate"],
+      "matchDatasources": ["cargo"],
       "groupName": "aws sdk crates",
-      "packagePatterns": ["^aws-config$", "^aws-sdk-[a-z]+$"]
+      "matchPackageNames": ["aws-config", "/^aws-sdk-[a-z]+$/"]
     }
   ]
 }
