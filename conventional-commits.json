@@ -5,7 +5,7 @@
   "semanticCommitScope": null,
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
+      "matchPackageNames": ["*"],
       "semanticCommitType": "chore"
     },
     {
