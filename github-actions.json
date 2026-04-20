@@ -4,7 +4,7 @@
     {
       "matchDepTypes": ["action"],
       "pinDigests": true,
-      "strategy": "pin"
+      "rangeStrategy": "pin"
     }
   ]
 }
