@@ -35,6 +35,24 @@
     },
     {
       "matchDatasources": ["crate"],
+      "groupName": "opentelemetry crates",
+      "matchPackageNames": [
+        "opentelemetry",
+        "opentelemetry-appender-log",
+        "opentelemetry-appender-tracing",
+        "opentelemetry-http",
+        "opentelemetry-jaeger-propagator",
+        "opentelemetry-otlp",
+        "opentelemetry-prometheus",
+        "opentelemetry-proto",
+        "opentelemetry_sdk",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-stdout",
+        "opentelemetry-zipkin"
+      ]
+    },
+    {
+      "matchDatasources": ["crate"],
       "groupName": "sea-orm crates",
       "matchPackageNames": ["sea-orm", "sea-orm-migration"]
     },
